@@ -14,20 +14,20 @@ header {
 }
 
 nav {
+    background-color: #003366;
+    padding: 10px;
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background-color: #003366;
-    padding: 10px;
 }
 
 nav a{
     color: white;
+    padding: 5px 10px;
+    display: block;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
-    padding: 5px 10px;
-    display: block;
 }
 
 nav a:hover {
@@ -35,8 +35,8 @@ nav a:hover {
 }
 
 h1{
-    text-align: center;
     color: #003366;
+    text-align: center;
 }
 
 h2{
