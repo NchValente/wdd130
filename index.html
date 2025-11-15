@@ -13,28 +13,54 @@
 
 <body>
     <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-        </nav>
-    </header>
-    <main>
         <h1>Ignacio Valente | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Hello, my name is Ignacio Valente" width="200">
-        <p>Hello! My name is Ignacio Valente, but most people call me Nacho. I’m from Córdoba, Argentina.
-            I enjoy technology, learning web development, and cooking homemade sauces. I’m excited to start building
-            web projects through this course!</p>
-    </main>
-    <aside>
-        <h2>Argentina</h2>
-        <img src="images/argentina.jpg" alt="Lionel Messi resting with the World Cup and a mate">
-        <p>This image of Lionel Messi relaxing with the World Cup and drinking mate perfectly represents Argentina — a
-            country
-            known for its passion, resilience, and love for football. It shows our national pride, the warmth of our
-            traditions, and
-            the joy of sharing simple moments that unite us as Argentinians.
-        </p>
-    </aside>
+        <div class="topbar">
+            <div class="brand">
+                <a href="#">Ignacio Valente</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" aria-current="page">Home</a></li>
+                    <li><a href="wwr/">Rafting Website</a></li>
+                    <li><a href="www.linkedin.com/in/javier-ignacio-valente-50461720a" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/nacho.valente.54/?locale=es_LA" target="_blank">Facebook</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="layout">
+        <main>
+            <img class="profile-img" src="images/profile.jpg" alt="Hello, my name is Ignacio Valente">
+            <p>Hello! My name is Ignacio Valente, but most people call me Nacho. I’m from Córdoba, Argentina.
+                I enjoy technology, learning web development, and cooking homemade sauces. I’m excited to start building
+                web projects through this course!</p>
+            <ul>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/buenos-aires-argentina-temple?lang=eng"
+                        target="_blank">Buenos Aires Argentina Temple</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/cordoba-argentina-temple?lang=eng"
+                        target="_blank">Córdoba Argentina Temple</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng"
+                        target="_blank">Salt Lake
+                        Temple</a></li>
+            </ul>
+        </main>
+        <aside class="box">
+            <h2>Argentina</h2>
+            <img src="images/argentina.jpg" alt="Iguazú Falls in Argentina">
+            <p>
+                This image of Iguazú Falls beautifully represents the natural wonder and diversity of Argentina. The
+                powerful waterfalls
+                surrounded by lush rainforest reflect the country’s vibrant landscapes, rich wildlife, and sense of
+                awe-inspiring
+                beauty. It captures our national pride, our connection to nature, and the breathtaking places that make
+                Argentina truly
+                unique.
+            </p>
+        </aside>
+    </div>
+
 
     <footer>
         <p>©2025 Ignacio Valente · Córdoba, Argentina</p>
