@@ -54,6 +54,20 @@ nav a:hover {
     display: block;
 }
 
+.hero article {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+    margin-left: 10px;
+}
+
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -86,6 +100,9 @@ figcaption {
     text-align: center;
     font-size: 0.8rem;
     margin-top: 4px;
+    color: var(--accent1-color);
+    background: var(--accent2-color);
+
 }
 
 
