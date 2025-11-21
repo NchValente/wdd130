@@ -74,6 +74,27 @@ nav a:hover {
     margin-left: 10px;
 }
 
+.hero article h1,
+.hero article p {
+    position: absolute;
+    left: 20px;
+}
+
+.hero article h1 {
+    top: 20px;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+.hero article p {
+    top: 70px;
+    max-width: 300px;
+    color: var(--secondary-color);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
 
 
 .history h2,
